@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 30vw;
+    height: 40vh;
+    border: 2px solid black;
+}
+
+.head{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin: 20px;
+    font-size: 20px;
+}
+
+#value{
+    text-align: center;
+    font-size: 60px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button{
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.increase{
+    background-color: aquamarine;
+}
+
+.decrease{
+    background-color: cadetblue;
+}
+
+.reset{
+    background-color: rgb(4, 47, 127);
+    border-color: black;
+}
+
